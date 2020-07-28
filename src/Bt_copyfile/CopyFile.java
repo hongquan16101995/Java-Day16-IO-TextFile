@@ -13,7 +13,7 @@ public class CopyFile {
             int line;
             int count = 0;
             while ((line = bufferedReader.read()) != -1) {
-                bufferedWriter.write((char)line);
+                bufferedWriter.write((char) line);
                 count++;
             }
             bufferedWriter.close();
